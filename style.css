@@ -235,7 +235,14 @@
             transform: translateX(0%);
             animation: color_anim 1s infinite 0.4s;
         }
-
+        .img-bottom{
+            width: 10%;
+            height: 80%; 
+            margin: 10px; 
+            background-image: url(mountain.png); background-size: 100%;
+            background-repeat: no-repeat; 
+            background-size: 100%;
+        }
         /* SVG animations */
 
         @keyframes color_anim {
